@@ -38,6 +38,10 @@ public class AdManager : MonoBehaviour
 
 
     private void Start() {
+
+#if UNITY_EDITOR
+        isTest = true;
+#endif
         //hasAds = UserDataManager.Instance.userData.hasAd;
 
         //if (hasAds)
