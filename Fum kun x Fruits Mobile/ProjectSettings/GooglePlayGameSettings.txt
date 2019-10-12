@@ -1,5 +1,5 @@
-lastUpgrade=00960
-proj.pluginVersion=0.9.60
+lastUpgrade=00964
+proj.pluginVersion=0.9.64
 proj.AppId=1035522303690
 and.BundleId=com.croben.fumkunxfruits
 proj.classDir=Assets
