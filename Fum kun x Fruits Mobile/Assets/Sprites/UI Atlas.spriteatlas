@@ -1,0 +1,120 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: UI Atlas
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 2
+      m_BuildTarget: WebGL
+      m_MaxTextureSize: 512
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: 29
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 1
+      m_AndroidETC2FallbackOverride: 0
+    - serializedVersion: 2
+      m_BuildTarget: Android
+      m_MaxTextureSize: 1024
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: 29
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 1
+      m_AndroidETC2FallbackOverride: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 0
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: 069944de0560da741b978160d0de9b4a, type: 3}
+    totalSpriteSurfaceArea: 720177
+    bindAsDefault: 1
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 60e36e4005573654b891eb304a48dc75, type: 3}
+  - {fileID: 21300000, guid: 73835b31735422b44a17bdff0df8b24d, type: 3}
+  - {fileID: 21300000, guid: 55ae29e1a49021b49859ae1b28a64d1c, type: 3}
+  - {fileID: 21300000, guid: 824db3620984d6a44a10517c36bfa4d4, type: 3}
+  - {fileID: 21300000, guid: 63c1f7638ddfcc74e9dfac55a4ae7c23, type: 3}
+  - {fileID: 21300000, guid: 3da01c63f7c402e419598a4301dec3b6, type: 3}
+  - {fileID: 21300000, guid: 6c7903737546fab44a255c176d0e6ea7, type: 3}
+  - {fileID: 21300000, guid: be4cfa73217cd6a419cf8f3f941cc907, type: 3}
+  - {fileID: 21300000, guid: 7a740724cdca0f942904e37a50e97e4b, type: 3}
+  - {fileID: 21300000, guid: c6ac6db4da0b2de4eb4f603cbd0e555b, type: 3}
+  - {fileID: 21300000, guid: f3f138056f712424d99a0f8edc8bff25, type: 3}
+  - {fileID: 21300000, guid: 1085ec752c37b044c99a054fe8e7940d, type: 3}
+  - {fileID: 21300000, guid: 5f1b1a474c65a14459d674dc03f19d1e, type: 3}
+  - {fileID: 21300000, guid: b9d9a2573fd0b5d4a886962e08ff62c8, type: 3}
+  - {fileID: 21300000, guid: d1f3d438cab88e24c88351c2afb0a5cd, type: 3}
+  - {fileID: 21300000, guid: 9fd4eb78ad8ac924c93a4091b96a843a, type: 3}
+  - {fileID: 21300000, guid: 9f2bcd7868cb4c44c9fd68ffcd47bb7d, type: 3}
+  - {fileID: 21300000, guid: 5b66a409401537242bde0cb388d5cd63, type: 3}
+  - {fileID: 21300000, guid: a3ab8e9af220aa84694f2bf85e12023c, type: 3}
+  - {fileID: 21300000, guid: 7d284a2c60b3ca2459fb8e4905fef752, type: 3}
+  - {fileID: 21300000, guid: 3bcfcf2c3251a9e4f974ac2f1bb1f53b, type: 3}
+  - {fileID: 21300000, guid: 085144bcc06b8a34bbf72ca8196ba3e3, type: 3}
+  - {fileID: 21300000, guid: 9113c2cd7229710409edeca9890d7590, type: 3}
+  - {fileID: 21300000, guid: 391964ed919ddf943a482e03dc0f894f, type: 3}
+  - {fileID: 21300000, guid: 64bcbb2e97d9dd542bbef157dc8811da, type: 3}
+  - {fileID: 21300000, guid: 8f247b8ea72c702488c79d118a989ebd, type: 3}
+  - {fileID: 21300000, guid: 48c75d9fa387dc447b120c38ca12077c, type: 3}
+  - {fileID: 21300000, guid: 7d52b5dfc1ce72d479ec158fcf341c37, type: 3}
+  - {fileID: 21300000, guid: 35f9efff5b9f9624f873ddf542f3ecb5, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - offaudio
+  - squarewhite
+  - menu
+  - plane3UI
+  - pause
+  - trophy
+  - shooticon
+  - close
+  - title
+  - accept
+  - exit
+  - dataprivacy
+  - playgames
+  - yakilogo
+  - back
+  - howto
+  - blackbutton
+  - onaudio
+  - play
+  - plane2UI
+  - leaderboard
+  - uicoin
+  - twitter
+  - rate
+  - facebook
+  - achievements
+  - bar_0
+  - youtube
+  - plane1UI
+  m_Tag: UI Atlas
+  m_IsVariant: 0

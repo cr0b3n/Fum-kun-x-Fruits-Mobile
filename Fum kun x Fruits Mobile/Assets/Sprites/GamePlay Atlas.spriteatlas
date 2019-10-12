@@ -1,0 +1,110 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: GamePlay Atlas
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 2
+      m_BuildTarget: WebGL
+      m_MaxTextureSize: 1024
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: 29
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 1
+      m_AndroidETC2FallbackOverride: 0
+    - serializedVersion: 2
+      m_BuildTarget: Android
+      m_MaxTextureSize: 1024
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: 29
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 1
+      m_AndroidETC2FallbackOverride: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 0
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: 5595cab063bb07c479184e0183819576, type: 3}
+    totalSpriteSurfaceArea: 503935
+    bindAsDefault: 1
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300002, guid: 64b1db436c0d07240b6e781bf88d8dab, type: 3}
+  - {fileID: 21300000, guid: 64b1db436c0d07240b6e781bf88d8dab, type: 3}
+  - {fileID: 21300002, guid: a04ccfc3d74c3ff4693b0e4cc3d7ccf6, type: 3}
+  - {fileID: 21300000, guid: a04ccfc3d74c3ff4693b0e4cc3d7ccf6, type: 3}
+  - {fileID: 21300006, guid: a04ccfc3d74c3ff4693b0e4cc3d7ccf6, type: 3}
+  - {fileID: 21300004, guid: a04ccfc3d74c3ff4693b0e4cc3d7ccf6, type: 3}
+  - {fileID: 21300000, guid: 4cf6d7e46179f8d4499b4f705e5e8606, type: 3}
+  - {fileID: 21300000, guid: f5f668f47c7e39d4eb6c5cb6d66728e1, type: 3}
+  - {fileID: 21300002, guid: f5f668f47c7e39d4eb6c5cb6d66728e1, type: 3}
+  - {fileID: 21300000, guid: 54248236b973dfb418ebc4c48c9a8c26, type: 3}
+  - {fileID: 21300018, guid: 499cb95638bc4f54fbf7b3243522db74, type: 3}
+  - {fileID: 21300016, guid: 499cb95638bc4f54fbf7b3243522db74, type: 3}
+  - {fileID: 21300006, guid: 499cb95638bc4f54fbf7b3243522db74, type: 3}
+  - {fileID: 21300004, guid: 499cb95638bc4f54fbf7b3243522db74, type: 3}
+  - {fileID: 21300002, guid: 499cb95638bc4f54fbf7b3243522db74, type: 3}
+  - {fileID: 21300000, guid: 499cb95638bc4f54fbf7b3243522db74, type: 3}
+  - {fileID: 21300014, guid: 499cb95638bc4f54fbf7b3243522db74, type: 3}
+  - {fileID: 21300012, guid: 499cb95638bc4f54fbf7b3243522db74, type: 3}
+  - {fileID: 21300010, guid: 499cb95638bc4f54fbf7b3243522db74, type: 3}
+  - {fileID: 21300008, guid: 499cb95638bc4f54fbf7b3243522db74, type: 3}
+  - {fileID: 21300000, guid: 47b54ba8c696f2044904375800343c16, type: 3}
+  - {fileID: 21300000, guid: df4c069fa71e7c3478e7b6a2db0258cf, type: 3}
+  - {fileID: 21300002, guid: df4c069fa71e7c3478e7b6a2db0258cf, type: 3}
+  - {fileID: 21300000, guid: a27031afd19bfe641a6fd44875d704b6, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - plane3_1
+  - plane3_0
+  - bulletssprites_1
+  - bulletssprites_0
+  - bulletssprites_3
+  - bulletssprites_2
+  - char1
+  - plane2_0
+  - plane2_1
+  - char2
+  - fruits_9
+  - fruits_8
+  - fruits_3
+  - fruits_2
+  - fruits_1
+  - fruits_0
+  - fruits_7
+  - fruits_6
+  - fruits_5
+  - fruits_4
+  - gamecoin
+  - plane_0
+  - plane_1
+  - eggshield
+  m_Tag: GamePlay Atlas
+  m_IsVariant: 0
