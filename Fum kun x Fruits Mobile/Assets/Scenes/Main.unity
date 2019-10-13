@@ -96,6 +96,7 @@ LightmapSettings:
     m_PVRFilteringAtrousPositionSigmaAO: 1
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
+    m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
   m_UseShadowmask: 1
 --- !u!196 &4
@@ -379,6 +380,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -2887,6 +2889,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -3366,6 +3369,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -5521,15 +5525,15 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 4533939160166487305, guid: 40fc54d56420fdd46b89402b7009b1d1,
-        type: 3}
-      propertyPath: m_Name
-      value: BulletPool
-      objectReference: {fileID: 0}
     - target: {fileID: 4533939160166487318, guid: 40fc54d56420fdd46b89402b7009b1d1,
         type: 3}
       propertyPath: pooledAmount
       value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4533939160166487305, guid: 40fc54d56420fdd46b89402b7009b1d1,
+        type: 3}
+      propertyPath: m_Name
+      value: BulletPool
       objectReference: {fileID: 0}
     - target: {fileID: 4533939160166487319, guid: 40fc54d56420fdd46b89402b7009b1d1,
         type: 3}
@@ -5873,11 +5877,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 673274961}
     m_Modifications:
-    - target: {fileID: 6764117453129871994, guid: c1ffecc08076fde47aa2aaa81eec7819,
-        type: 3}
-      propertyPath: m_Name
-      value: _Footer
-      objectReference: {fileID: 0}
     - target: {fileID: 6764117453129871995, guid: c1ffecc08076fde47aa2aaa81eec7819,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5982,6 +5981,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Pivot.y
       value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6764117453129871994, guid: c1ffecc08076fde47aa2aaa81eec7819,
+        type: 3}
+      propertyPath: m_Name
+      value: _Footer
       objectReference: {fileID: 0}
     - target: {fileID: 6764117453324103057, guid: c1ffecc08076fde47aa2aaa81eec7819,
         type: 3}
@@ -7048,7 +7052,8 @@ MonoBehaviour:
 
     - Drag Fum-kun to move
 
-    - Attack fruits to score
+    - Attack
+    fruits to score
 
     - Tap shoot button to attack
 
@@ -9274,7 +9279,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pooledObject: {fileID: 548169521812438942, guid: 18edb15b4ee82484ba2de028e50b14a7,
     type: 3}
-  pooledAmount: 9
+  pooledAmount: 10
 --- !u!4 &2083574975
 Transform:
   m_ObjectHideFlags: 0
@@ -9320,7 +9325,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pooledObject: {fileID: 5418932796398315553, guid: 0f3667d8015063c4782869c9ac5b15ef,
     type: 3}
-  pooledAmount: 2
+  pooledAmount: 3
 --- !u!4 &2104726543
 Transform:
   m_ObjectHideFlags: 0
@@ -9949,11 +9954,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2004766754}
     m_Modifications:
-    - target: {fileID: 2255736240744965039, guid: e6c67e15699f83b408e79db75e3b115d,
-        type: 3}
-      propertyPath: m_Name
-      value: Dialogue Shop
-      objectReference: {fileID: 0}
     - target: {fileID: 2255736240744965024, guid: e6c67e15699f83b408e79db75e3b115d,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -10059,6 +10059,11 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
+    - target: {fileID: 2255736240744965039, guid: e6c67e15699f83b408e79db75e3b115d,
+        type: 3}
+      propertyPath: m_Name
+      value: Dialogue Shop
+      objectReference: {fileID: 0}
     - target: {fileID: 2255736239774116851, guid: e6c67e15699f83b408e79db75e3b115d,
         type: 3}
       propertyPath: m_Color.r
@@ -10110,16 +10115,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 181747429}
     m_Modifications:
-    - target: {fileID: 1501760013471801139, guid: 6cdf018a5218c3849a2a3a7d4a0ed3f7,
-        type: 3}
-      propertyPath: m_Name
-      value: Rate Popup
-      objectReference: {fileID: 0}
-    - target: {fileID: 1501760013471801139, guid: 6cdf018a5218c3849a2a3a7d4a0ed3f7,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 1501760013471801136, guid: 6cdf018a5218c3849a2a3a7d4a0ed3f7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -10225,6 +10220,16 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
+    - target: {fileID: 1501760013471801139, guid: 6cdf018a5218c3849a2a3a7d4a0ed3f7,
+        type: 3}
+      propertyPath: m_Name
+      value: Rate Popup
+      objectReference: {fileID: 0}
+    - target: {fileID: 1501760013471801139, guid: 6cdf018a5218c3849a2a3a7d4a0ed3f7,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1501760014643237109, guid: 6cdf018a5218c3849a2a3a7d4a0ed3f7,
         type: 3}
       propertyPath: m_havePropertiesChanged
@@ -10289,16 +10294,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 181747429}
     m_Modifications:
-    - target: {fileID: 1004136407756514955, guid: bedbd8eadea0d6144b03f1f2f32ccd1f,
-        type: 3}
-      propertyPath: m_Name
-      value: Login Popup
-      objectReference: {fileID: 0}
-    - target: {fileID: 1004136407756514955, guid: bedbd8eadea0d6144b03f1f2f32ccd1f,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 1004136407756514952, guid: bedbd8eadea0d6144b03f1f2f32ccd1f,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -10404,6 +10399,16 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
+    - target: {fileID: 1004136407756514955, guid: bedbd8eadea0d6144b03f1f2f32ccd1f,
+        type: 3}
+      propertyPath: m_Name
+      value: Login Popup
+      objectReference: {fileID: 0}
+    - target: {fileID: 1004136407756514955, guid: bedbd8eadea0d6144b03f1f2f32ccd1f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1004136409263532365, guid: bedbd8eadea0d6144b03f1f2f32ccd1f,
         type: 3}
       propertyPath: m_havePropertiesChanged
@@ -10471,16 +10476,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 181747429}
     m_Modifications:
-    - target: {fileID: 3749982849112361363, guid: 3edd483c89062f042a5ab3dbbf5aaa6c,
-        type: 3}
-      propertyPath: m_Name
-      value: Revive Popup
-      objectReference: {fileID: 0}
-    - target: {fileID: 3749982849112361363, guid: 3edd483c89062f042a5ab3dbbf5aaa6c,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 3749982849112361360, guid: 3edd483c89062f042a5ab3dbbf5aaa6c,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -10586,6 +10581,16 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
+    - target: {fileID: 3749982849112361363, guid: 3edd483c89062f042a5ab3dbbf5aaa6c,
+        type: 3}
+      propertyPath: m_Name
+      value: Revive Popup
+      objectReference: {fileID: 0}
+    - target: {fileID: 3749982849112361363, guid: 3edd483c89062f042a5ab3dbbf5aaa6c,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3749982847940363861, guid: 3edd483c89062f042a5ab3dbbf5aaa6c,
         type: 3}
       propertyPath: m_havePropertiesChanged
@@ -10645,11 +10650,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2122910333}
     m_Modifications:
-    - target: {fileID: 6764117453129871994, guid: c1ffecc08076fde47aa2aaa81eec7819,
-        type: 3}
-      propertyPath: m_Name
-      value: _Footer
-      objectReference: {fileID: 0}
     - target: {fileID: 6764117453129871995, guid: c1ffecc08076fde47aa2aaa81eec7819,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -10754,6 +10754,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Pivot.y
       value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6764117453129871994, guid: c1ffecc08076fde47aa2aaa81eec7819,
+        type: 3}
+      propertyPath: m_Name
+      value: _Footer
       objectReference: {fileID: 0}
     - target: {fileID: 6764117453324103057, guid: c1ffecc08076fde47aa2aaa81eec7819,
         type: 3}
